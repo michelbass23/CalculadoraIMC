@@ -1,0 +1,64 @@
+html,body{
+    height: 100vh;
+    margin: 10px;
+    background: rgb(2,0,36);
+    background-image: url('https://doctorscast.com.br/wp-content/uploads/2020/12/como-ser-nutricionista-e-nao-prescrever-dietas.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+
+
+.myForm{
+background-color: rgba(0,0,0,0.5) !important;
+padding: 100px !important;
+border-radius: 12px !important;
+color: white;
+justify-content:space-between;
+align-items: center;
+}
+
+input{
+border-radius:0 15px 15px 0 !important;
+
+}
+input:focus{
+outline: none;
+box-shadow:none !important;
+border:1px solid #ccc !important;
+
+}
+
+.br-15{
+border-radius: 15px 0 0 15px !important;
+}
+
+#add_more{
+color: white !important;
+background-color: #fa8231 !important;
+border-radius: 15px !important;
+border: 0 !important;
+
+}
+#remove_more{
+color: white !important;
+background-color: #fc5c65 !important;
+border-radius: 15px !important;
+border: 0 !important;
+display: none;
+
+}
+
+.submit_btn{
+border-radius: 15px !important;
+background-color: #95c714 !important;
+border: 0 !important;
+width: 100px;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
